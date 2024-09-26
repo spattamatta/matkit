@@ -1,0 +1,28 @@
+\documentclass{standalone}
+\usepackage[usenames,x11names,dvipsnames,svgnames]{xcolor}
+\usepackage{graphicx,amsmath,latexsym,amssymb,amsthm,geometry}
+\usepackage{tikz}
+\usepackage{pagecolor}% http://ctan.org/pkg/{pagecolor,lipsum}
+% tight page
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+
+\begin{document}
+  \centering
+  % les couleurs
+  \definecolor{gris}{HTML}{3F464D}
+  \definecolor{vertf}{HTML}{00A650}
+  \definecolor{vertc}{HTML}{66C430}
+  \definecolor{orange}{HTML}{F68712}
+  \definecolor{rose}{HTML}{EC086D}
+  \definecolor{bleu}{HTML}{35B6ED}
+  % le logo
+  \resizebox{2\textwidth}{!}{%
+  \begin{tikzpicture}
+    \node[fill opacity=0, text opacity=1.0] at (0,0) [scale=10] { \Huge\textbf{\textcolor{red}{Ma}\textcolor{bleu}{T}\textcolor{gris}{Kit}}};
+    \node[fill opacity=0, text opacity=1.0] at (-0.9,-6.0) [scale=8.5]{\small\textbf{\textcolor{gris}{A Materials Property Tool-Kit}}};
+  \end{tikzpicture}
+  }
+
+
+\end{document}

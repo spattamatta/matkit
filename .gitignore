@@ -1,0 +1,70 @@
+**/*.[oa]
+**/*.html
+**/*.pdf
+
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# C/C++ extension
+*.so
+*.a
+*.dylib
+*.dll
+*.lib
+
+*.out
+*.exe
+*.app
+
+lib/
+lib64/
+
+# Mac OS specific
+.DS_Store
+
+# Tex auxiliary files
+*.aux
+*.bbl
+*.abs
+*.blg
+*.log
+*.out
+*.toc
+*.fmt
+*.idx
+*.dvi
+*.ps
+*.eps
+*.pdf
+*.ps
+
+# Image files
+*.jpeg
+*.jpg
+*.png
+*.bmp
+*.svg
+
+# Compressed files
+*.bz2
+*.tar
+*.xz
+*.gz
+
+# Data or other files
+*.xml
+*.mp4
+*.dat
+*.txt
+*.json
+*.err
+*.out
+*.doc
+*.docx
+
+# Exceptions
+!logo.svg
