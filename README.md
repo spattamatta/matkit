@@ -76,7 +76,7 @@ MaTKit does not need any installation, except for a minimal configuration to let
      The VASP pseudo-potentials ``<path-to-vasp-pseudopotentials>`` directory shall contain subdirectories ``potpaw_LDA`` and ``potpaw_PBE`` as shipped by VASP.
 
 ## Job management
-We provide a light-weight manager-worker based *taskfarmer* called the **pytaskfarmer** as a part of this package, to run a large number of jobs (the jobs can be of different granularity), under a single (or multiple) SLURM job submission environment. All workflows in MaTKit use the pytaskfarmer.
+We provide a light-weight manager-worker based *taskfarmer* called the **pytaskfarmer** as a part of this package, to run a large number of jobs (the jobs can be of different granularity), under a single (or multiple) SLURM job submission environment. All workflows in MaTKit use the pytaskfarmer. Refer to [pytaskfarmer.md](docs/pytaskfarmer.md) for the usage of the taskfarmer. Note that this taskfarmer is generic and can be used for any other jobs not necessarily related to MaTKit or even materials science.
 
 ## License
 
